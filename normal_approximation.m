@@ -1,5 +1,5 @@
 % Set parameters and generate synthetic data
-n = 100;                   % Sample size
+n = 1000;                   % Sample size
 mu_true = 3;               % True mean
 tau_true = 0.5;            % True precision (1/variance)
 y = normrnd(mu_true, sqrt(1 / tau_true), n, 1);  % Generate observed data
